@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+
+.overlay {
+  font-family: 'Archivo', sans-sans-serif;
+  font-size: 32px;
+  margin: 48px auto 0;
+  color: rgba(255, 255, 255, 0.35);
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 100%;
+}
+.fullscreenContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  background-color: #000;
+}
+.vid {
+  width: 100vw;
+  height: 100vh;
+}
+.footer {
+  background-color: #333;
+  color: #999;
+  text-align: center;
+  font-family: 'Archivo', sans-sans-serif;
+  font-size: 18px;
+  padding: 9px 0px;
+}
